@@ -1,2 +1,2 @@
 # SyncTex
-P2P text Editor
+P2P LaTeX Editor
