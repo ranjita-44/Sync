@@ -48,7 +48,8 @@
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
-    background: rgba(39, 39, 39, 0.4);
+    background-color: white;
+    /*background: rgba(39, 39, 39, 0.4);*/
 }
 
 .welcome-text {
@@ -72,20 +73,28 @@
 
 
 .form-box {
+    background-color: #d3d3d3;
     position: relative;
     width: 512px;
     height: 420px;
     overflow: hidden;
     z-index: 2;
+    border-radius: 40px;
     margin-top: 20px; /* Adjust as needed */
 }
 
+
 .wrapper{
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 110vh;
-    background: rgba(39, 39, 39, 0.4);
+    /*background: rgba(39, 39, 39, 0.4);
+    */
+
+
+
 }
 .nav{
     position: fixed;
