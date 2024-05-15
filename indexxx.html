@@ -24,8 +24,8 @@
       
         <div class="nav-menu" id="navMenu">
             <ul>
-                <li><a href="#" class="link">Features</a></li>
-                <li><a href="#" class="link">About</a></li>
+                <li><a href="#" class="link features-button">Features</a></li>
+                <li><a href="#" class="link about-button">About</a></li>
             </ul>
         </div>
         <div class="nav-button">
@@ -113,6 +113,18 @@
         </div>
     </div>
 </div>   
+<!-- Features Section -->
+<section id="features">
+    <h2>Features of SyncTex </h2>
+    <!-- Add your feature descriptions here -->
+    <p> ----------------------------------- </p>
+</section>
+
+<!-- About Section -->
+<section id="about">
+    <h2>About Us</h2>
+    <p>------------------- This is a 3rd-semester project----------- </p>
+</section>
 
 
 <script>
@@ -167,7 +179,28 @@
     }
 
 </script>
+<script>
+// JavaScript for scrolling to sections
+document.addEventListener('DOMContentLoaded', function () {
+        const featuresButton = document.querySelector('.features-button');
+        const aboutButton = document.querySelector('.about-button');
 
+        featuresButton.addEventListener('click', function () {
+            scrollToSection('features');
+        });
 
+        aboutButton.addEventListener('click', function () {
+            scrollToSection('about');
+        });
+
+        function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            if (section) {
+                section.scrollIntoView({behavior: 'smooth'});
+        }
+    }
+});
+
+</script>
 </body>
 </html>

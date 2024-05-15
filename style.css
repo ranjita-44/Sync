@@ -54,6 +54,8 @@
     flex-direction: column;
     min-height: 100vh;
     background-color: white;
+    overflow-y: auto; 
+    max-height: 150vh;
     /*background: rgba(39, 39, 39, 0.4);*/
 }
 
@@ -85,7 +87,7 @@
     overflow: hidden;
     z-index: 2;
     border-radius: 40px;
-    margin-top: 20px; /* Adjust as needed */
+    margin-top: 20px; 
 }
 
 
