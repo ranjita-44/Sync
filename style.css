@@ -54,13 +54,10 @@
     flex-direction: column;
     min-height: 100vh;
     background-color: white;
-<<<<<<< HEAD
  
-=======
     overflow-y: auto; 
     max-height: 150vh;
     /*background: rgba(39, 39, 39, 0.4);*/
->>>>>>> a9934549699455b6dbdc53b4cb3c6bb596ca5506
 }
 
 .welcome-text {
@@ -315,19 +312,6 @@ header{
         flex-direction: column;
         gap: 0;
     }
-}
-
-.toggle-password {
-    position: absolute;
-    top: 50%;
-    right: 10px;
-    transform: translateY(-50%);
-    cursor: pointer;
-}
-
-.toggle-password i {
-    font-size: 18px;
-    color: #555;
 }
 
 .google-container {

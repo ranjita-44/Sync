@@ -59,8 +59,11 @@
                 <i class="bx bx-user"></i>
             </div>
             <div class="input-box">
-                <input type="password" class="input-field" placeholder="Password">
+                <input type="password" class="input-field" placeholder="Password" id="login-password"
                 <i class="bx bx-lock-alt"></i>
+                <span class="toggle-password" onclick="togglePasswordVisibility('login-password')">
+                    <i class="bx bx-hide"></i>
+                </span>
             </div>
             <div class="input-box">
                 <input type="submit" class="submit" value="Sign In">
@@ -114,8 +117,11 @@
                 <i class="bx bx-envelope"></i>
             </div>
             <div class="input-box">
-                <input type="password" class="input-field" placeholder="Password">
+                <input type="password" class="input-field" placeholder="Password" id="register-password"
                 <i class="bx bx-lock-alt"></i>
+                <span class="toggle-password" onclick="togglePasswordVisibility('register-password')">
+                    <i class="bx bx-hide"></i>
+                </span>
             </div>
             <div class="input-box">
                 <input type="submit" class="submit" value="Register">
@@ -219,7 +225,22 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 });
-
+</script>
+<script>
+    function togglePasswordVisibility(inputId) {
+        var passwordInput = document.getElementById(inputId);
+        var icon = passwordInput.nextElementSibling.querySelector('i');
+        
+        if (passwordInput.type === "password") {
+            passwordInput.type = "text";
+            icon.classList.remove('bx-hide');
+            icon.classList.add('bx-show');
+        } else {
+            passwordInput.type = "password";
+            icon.classList.remove('bx-show');
+            icon.classList.add('bx-hide');
+        }
+    }
 </script>
 </body>
 </html>
