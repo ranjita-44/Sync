@@ -4,6 +4,12 @@
     "configurations": [
 
         {
+            "type": "browse-lite",
+            "request": "launch",
+            "name": "Browse Lite: Launch",
+            "url": "http://localhost:3000"
+        },
+        {
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome",
