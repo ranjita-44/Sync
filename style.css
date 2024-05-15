@@ -87,7 +87,7 @@
     background-color: #d3d3d3;
     position: relative;
     width: 512px;
-    height: 420px;
+    height: 480px;
     overflow: hidden;
     z-index: 2;
     border-radius: 40px;
@@ -205,7 +205,7 @@ header{
 .input-field{
     font-size: 15px;
     background: rgba(255, 255, 255, 0.2);
-    color: #fff;
+    color: black;
     height: 50px;
     width: 100%;
     padding: 0 10px 0 45px;
@@ -218,13 +218,13 @@ header{
     background: rgba(255, 255, 255, 0.25);
 }
 ::-webkit-input-placeholder{
-    color: #fff;
+    color: black;
 }
 .input-box i{
     position: relative;
     top: -35px;
     left: 17px;
-    color: #fff;
+    color: black;
 }
 .submit{
     font-size: 15px;
@@ -246,7 +246,7 @@ header{
 .two-col{
     display: flex;
     justify-content: space-between;
-    color: #fff;
+    color: black;
     font-size: small;
     margin-top: 10px;
 }
@@ -256,7 +256,7 @@ header{
 }
 .two label a{
     text-decoration: none;
-    color: #fff;
+    color: black;
 }
 .two label a:hover{
     text-decoration: underline;
@@ -316,4 +316,78 @@ header{
         gap: 0;
     }
 }
+
+.google-container {
+    padding: auto;
+    height: 10px;
+
+
+
+    
+  }
+
+  .g-sign-in-button {
+    position: relative;
+
+    top: 450%;
+    left: 48%;
+
+    
+    transform: translate(-50%, -50%);
+    margin: 10px;
+    display: inline-block;
+    width: 505px;
+    height: 50px;
+    background-color: #0fc1c1b3;
+    color: #fff;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .25);
+    transition: background-color .218s, border-color .218s, box-shadow .218s;
+  }
+
+  .g-sign-in-button:hover {
+    cursor: pointer;
+    /*-webkit-box-shadow: 0 0 3px 3px #0fc1c1b3;
+    box-shadow: 0 0 3px 3px #0fc1c1b3;*/
+    background-color: rgba(16, 174, 165, 1);
+
+  }
+
+  .g-sign-in-button:active {
+    background-color: #0fc1c1b3;
+    transition: background-color .2s;
+  }
+
+  .g-sign-in-button .content-wrapper {
+    height: 100%;
+    width: 100%;
+    border: 1px solid transparent;
+  }
   
+  .g-sign-in-button img {
+    width: 18px;
+    height: 18px;
+    border-radius: 25px;
+  }
+  
+  .g-sign-in-button .logo-wrapper {
+    padding: 15px;
+    background: #fff;
+    width: 48px;
+    height: 100%;
+    border-radius: 25px;
+    display: inline-block;
+  }
+  
+  .g-sign-in-button .text-container {
+    font-family: "Roboto", arial, sans-serif;
+    font-weight: 500;
+    letter-spacing: .21px;
+    font-size: 16px;
+    line-height: 48px;
+    vertical-align: top;
+    border: none;
+    display: inline-block;
+    text-align: center;
+    width: 180px;
+  }
