@@ -317,6 +317,19 @@ header{
     }
 }
 
+.toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.toggle-password i {
+    font-size: 18px;
+    color: #555;
+}
+
 .google-container {
     padding: auto;
     height: 10px;
