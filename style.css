@@ -53,8 +53,11 @@
     min-height: 100vh;
     background-color: white;
  
+<<<<<<< HEAD
+=======
     overflow-y: auto; 
     max-height: 150vh;
+>>>>>>> 9136747e5f6d408468e1ad9e0a0dfa52e60da974
 }
 
 .welcome-text {
@@ -81,7 +84,7 @@
     background-color: #d3d3d3;
     position: relative;
     width: 512px;
-    height: 480px;
+    height: 516px;
     overflow: hidden;
     z-index: 2;
     border-radius: 40px;
