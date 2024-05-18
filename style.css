@@ -53,11 +53,6 @@
     min-height: 100vh;
     background-color: white;
  
-<<<<<<< HEAD
-=======
-    overflow-y: auto; 
-    max-height: 150vh;
->>>>>>> 9136747e5f6d408468e1ad9e0a0dfa52e60da974
 }
 
 .welcome-text {
@@ -388,6 +383,8 @@ header{
     --dark-green: #069295;
     --font-family: 'Poppins', sans-serif;
     --header-height: 60px;
+    --black: #000000
+
 }
 
 
@@ -403,8 +400,8 @@ h1, h2, h3 {
 }
 
 header {
-    background: var(--primary-green);
-    color: var(--white);
+    
+    color: var(--black);
     padding: 10px 0;
     height: var(--header-height);
 }
